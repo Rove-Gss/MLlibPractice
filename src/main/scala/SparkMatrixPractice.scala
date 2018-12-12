@@ -7,7 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object SparkMatrixPractice {
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf().setAppName("scala Spark Test").setMaster("local")
+    val conf = new SparkConf().setAppName("scala Spark Test").setMaster("local[3]")
     val sc = new SparkContext(conf)
     /*
   * part：测试Breeze创建函数

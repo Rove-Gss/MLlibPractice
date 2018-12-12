@@ -23,7 +23,7 @@ object LinearRegressionPractice {
     val testData = sc.parallelize(Array(Vectors.dense(0.4267,1.2253),Vectors.dense(6.0,7.0),Vectors.dense(7.0,8.5)))
     val predictResult = model.predict(testData)
     predictResult.collect().foreach(println)
-    //model.weights
+    //model.weights[-'
     //model.intercep
 //    val predictList = sc.parallelize(Array(5.0,6.0,7.0,8.0,9.0));
 //    //val predictList = sc.parallelize(Array(5.0,6.0,7.0,8.0),3)
