@@ -22,5 +22,11 @@ object KMeansPractice {
     model.clusterCenters.foreach(println)
     val WSSSE = model.computeCost(data)
     println("Within Set Sum of Squared Errors = " + WSSSE)
+    val TestData1 = Vectors.dense(10.1,10.2,10.3)
+    val TestData2 = Vectors.dense(5.1,5.3,5.5)
+    val prediction1 = (TestData1,model.predict(TestData1))
+    val prediction2 = (TestData2,model.predict(TestData2))
+    println(prediction1._1 + "\t" + prediction1._2)
+    println(prediction2._1 + "\t" + prediction2._2)
   }
 }
