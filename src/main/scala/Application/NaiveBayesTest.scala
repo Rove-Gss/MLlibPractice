@@ -1,4 +1,6 @@
-import org.apache.spark.mllib.classification.{LogisticRegressionWithLBFGS, NaiveBayes}
+package Application
+
+import org.apache.spark.mllib.classification.NaiveBayes
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.{SparkConf, SparkContext}
@@ -72,5 +74,3 @@ object NaiveBayesTest {
 
 
 }
-
-

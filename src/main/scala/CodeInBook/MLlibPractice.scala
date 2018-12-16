@@ -1,9 +1,6 @@
-import com.sun.org.glassfish.external.statistics.Statistic
+package CodeInBook
+
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark
-import org.apache.spark.mllib.linalg.Vectors
-import org.apache.spark.mllib.stat.Statistics
-import org.apache.spark.mllib.util.{KMeansDataGenerator, LinearDataGenerator, LogisticRegressionDataGenerator, MLUtils}
 
 object MLlibPractice {
   def main(args: Array[String]) {

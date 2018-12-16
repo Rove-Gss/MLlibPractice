@@ -1,3 +1,5 @@
+package CodeInBook
+
 import org.apache.spark.mllib.classification.NaiveBayes
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.regression.LabeledPoint
@@ -32,4 +34,3 @@ object NaiveBayesPractice {
     println("accuracy:" + accuracy)
   }
 }
-

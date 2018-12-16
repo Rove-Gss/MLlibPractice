@@ -1,3 +1,5 @@
+package CodeInBook
+
 import org.apache.spark.mllib.tree.DecisionTree
 import org.apache.spark.mllib.util.MLUtils
 import org.apache.spark.{SparkConf, SparkContext}
@@ -13,7 +15,7 @@ object DecisionTreePractice {
 
    val numClasses = 2
    val categoricalFeaturesInfo = Map[Int,Int]()
-   val impurity = "gini"
+   val impurity = "entropy"
    val maxDepth = 5
    val maxBins = 32
 

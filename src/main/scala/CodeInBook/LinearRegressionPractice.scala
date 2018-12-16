@@ -1,8 +1,7 @@
-import breeze.linalg.DenseVector
+package CodeInBook
+
 import org.apache.spark.mllib.linalg.Vectors
-import org.apache.spark.mllib.regression
 import org.apache.spark.mllib.regression.{LabeledPoint, LinearRegressionWithSGD}
-import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 object LinearRegressionPractice {

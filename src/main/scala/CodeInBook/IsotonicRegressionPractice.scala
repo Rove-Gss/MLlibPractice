@@ -1,5 +1,7 @@
+package CodeInBook
+
+import org.apache.spark.mllib.regression.IsotonicRegression
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.mllib.regression.{IsotonicRegression, IsotonicRegressionModel}
 
 object IsotonicRegressionPractice {
   def main(args: Array[String]): Unit = {
